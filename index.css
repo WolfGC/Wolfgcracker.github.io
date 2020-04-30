@@ -28,7 +28,9 @@ h1 {
 .text-js {
   opacity: 0;
   color: white;
+  /* animation: glow 1s ease-in-out infinite alternate; */
 }
+
 .cursor {
   display: block;
   position: absolute;
@@ -48,3 +50,15 @@ h1 {
     opacity: 0;
   }
 }
+
+/* @keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px orange, 0 0 40px orange,
+      0 0 50px orange, 0 0 60px orange, 0 0 70px orange;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px white, 0 0 40px white, 0 0 50px white,
+      0 0 60px white, 0 0 70px white, 0 0 80px white;
+  }
+} */
