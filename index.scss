@@ -142,9 +142,6 @@ path {
   padding: 100px 0px;
   a {
     text-decoration: none;
-    &:visited {
-      color: #000;
-    }
   }
   .work-cont {
     display: flex;
@@ -239,6 +236,9 @@ path {
       box-shadow: none;
       border-radius: 20px;
       transform: translateY(-20px);
+    }
+    a:visited {
+      color: $background;
     }
   }
 }

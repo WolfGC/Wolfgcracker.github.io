@@ -218,10 +218,6 @@ path {
   text-decoration: none;
 }
 
-#work a:visited {
-  color: #000;
-}
-
 #work .work-cont {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -354,6 +350,10 @@ path {
   border-radius: 20px;
   -webkit-transform: translateY(-20px);
           transform: translateY(-20px);
+}
+
+#work .demo-card a:visited {
+  color: #303030;
 }
 
 #tools {
