@@ -182,7 +182,7 @@ section {
 }
 
 #intro .intro-name {
-  font-size: clamp(40px, 8vw, 80px);
+  font-size: clamp(60px, 8vw, 80px);
   font-weight: 600;
   color: #fff;
 }
@@ -216,6 +216,10 @@ path {
 
 #work a {
   text-decoration: none;
+}
+
+#work a:visited {
+  color: #000;
 }
 
 #work .work-cont {
