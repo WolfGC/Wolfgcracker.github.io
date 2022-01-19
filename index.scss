@@ -142,6 +142,9 @@ path {
   padding: 100px 0px;
   a {
     text-decoration: none;
+    &:visited {
+      color: #000;
+    }
   }
   .work-cont {
     display: flex;
