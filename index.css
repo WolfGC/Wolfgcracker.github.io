@@ -627,6 +627,11 @@ path {
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
+#credit {
+  color: #bbd8b3;
+  padding: 20px;
+}
+
 .burger-btn {
   display: none;
 }
