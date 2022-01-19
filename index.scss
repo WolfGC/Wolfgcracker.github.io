@@ -237,8 +237,11 @@ path {
       border-radius: 20px;
       transform: translateY(-20px);
     }
-    a:visited {
-      color: $background;
+    a {
+      color: #000;
+    }
+    &:visited {
+      color: #000;
     }
   }
 }

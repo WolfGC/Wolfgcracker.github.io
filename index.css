@@ -352,8 +352,12 @@ path {
           transform: translateY(-20px);
 }
 
-#work .demo-card a:visited {
-  color: #303030;
+#work .demo-card a {
+  color: #000;
+}
+
+#work .demo-card:visited {
+  color: #000;
 }
 
 #tools {
