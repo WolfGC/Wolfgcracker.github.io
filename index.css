@@ -401,8 +401,8 @@ path {
   height: 200px;
   margin: 20px;
   z-index: 5;
+  backdrop-filter: blur(2rem);
   -webkit-backdrop-filter: blur(2rem);
-          backdrop-filter: blur(2rem);
 }
 
 #tools .content {

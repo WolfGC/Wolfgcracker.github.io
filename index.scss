@@ -273,6 +273,7 @@ path {
     margin: 20px;
     z-index: 5;
     backdrop-filter: blur(2rem);
+    -webkit-backdrop-filter: blur(2rem);
   }
   .content {
     width: 100%;
