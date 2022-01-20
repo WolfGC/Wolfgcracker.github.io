@@ -133,6 +133,14 @@ a:visited {
           justify-content: space-evenly;
 }
 
+.menu-nav a {
+  color: #fff;
+}
+
+.menu-nav:visited {
+  color: #fff;
+}
+
 .sections-cont {
   display: -webkit-box;
   display: -ms-flexbox;

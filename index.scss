@@ -82,6 +82,12 @@ a:visited {
     height: 200px;
     justify-content: space-evenly;
   }
+  a {
+    color: $white;
+  }
+  &:visited {
+    color: $white;
+  }
 }
 
 // Sections General
