@@ -312,6 +312,7 @@ path {
   .back {
     color: white;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
   }
   .circle1,
   .circle2 {
