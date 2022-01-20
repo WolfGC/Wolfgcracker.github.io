@@ -297,6 +297,11 @@ path {
   .back {
     position: absolute;
     backface-visibility: hidden;
+    transform: rotateX(0deg);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    visibility: visible;
+    backface-visibility: hidden;
   }
   .front {
     @include display-properties;

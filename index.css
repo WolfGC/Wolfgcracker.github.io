@@ -441,8 +441,13 @@ path {
 #tools .front,
 #tools .back {
   position: absolute;
+  backface-visibility: hidden;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  visibility: visible;
+  backface-visibility: hidden;
 }
 
 #tools .front {
