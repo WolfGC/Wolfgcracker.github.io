@@ -52,6 +52,10 @@ a:visited {
     border-radius: 50%;
     margin-top: 1rem;
     background-color: $accent;
+    img {
+      width: 80px;
+      height: 140px;
+    }
   }
   .name {
     margin-top: 1rem;
@@ -289,12 +293,12 @@ path {
     transition: transform 1s;
     transform-style: preserve-3d;
   }
-  .card:hover .content {
-    transform: rotateY(180deg);
-    transition: transform 0.5s;
-    -webkit-transform: rotateY(180deg);
-    -webkit-transition: transform 0.5s;
-  }
+  // .card:hover .content {
+  //   transform: rotateY(180deg);
+  //   transition: transform 0.5s;
+  //   -webkit-transform: rotateY(180deg);
+  //   -webkit-transition: transform 0.5s;
+  // }
   .front,
   .back {
     position: absolute;
@@ -313,6 +317,9 @@ path {
     color: white;
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
+  }
+  .toolText {
+    font-size: x-large;
   }
   .circle1,
   .circle2 {
