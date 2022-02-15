@@ -23,6 +23,7 @@ body {
   background: $background;
   height: 100vh;
   display: block;
+  overflow-x: hidden;
 }
 a:visited {
   color: inherit;
